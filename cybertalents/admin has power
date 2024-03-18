@@ -1,0 +1,12 @@
+-open the challenge link. it opens up a login form.
+-Right click and view page source. inspect it and you will see some login credentials on the code.
+    <! — TODO: remove this line , for maintenance purpose use this info (user:support password:x34245323) →
+-login using those credentials and it takes you to support page. but we actually need to login as admin.
+-inspect the page and navigate to the application tab.
+-under the application tab open the cookies. there is a role with the value ‘support’ change that to ‘admin’ and refresh your page.
+  you should be able to now see the flag.
+hiadminyouhavethepower
+
+
+
+
